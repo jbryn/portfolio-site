@@ -12,8 +12,9 @@ export default function Project({
   description,
   tags,
   imageUrl,
+  href,
 }: ProjectProps) {
-  const ref = useRef<HTMLDivElement>(null);
+  const ref = useRef<HTMLAnchorElement>(null);
   const { scrollYProgress } = useScroll({
     target: ref,
     offset: ["0 1", "1.33 1"],
@@ -22,7 +23,8 @@ export default function Project({
   const opacityProgess = useTransform(scrollYProgress, [0, 1], [0.6, 1]);
 
   return (
-    <motion.div
+    <motion.a
+      href={href}
       ref={ref}
       style={{
         scale: scaleProgess,
@@ -66,6 +68,6 @@ export default function Project({
         group-even:right-[initial] group-even:-left-40"
         />
       </section>
-    </motion.div>
+    </motion.a>
   );
 }
