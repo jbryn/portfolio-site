@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Space";
+  font-style: bold;
+  font-weight: 600;
+  src: url("/fonts/SpaceGrotesk-VariableFont_wght.ttf");
+}
+
+html,
+body {
+  font-family: "Space" !important;
+}
+
 html {
   --line-color: #e5e7eb;
 }

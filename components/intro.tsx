@@ -23,7 +23,7 @@ export default function Intro() {
       <div className="grid grid-cols-1 w-full items-center gap-[60px] pb-[60px] sm:grid-rows-1 sm:grid-cols-2">
         <div>
           <motion.h1
-            className="mb-10 mt-4 px-4 font-bold text-4xl"
+            className="mb-10 mt-4 px-4 font-bold text-4xl sm:text-3xl"
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
           >
