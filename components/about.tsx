@@ -19,7 +19,7 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        {/* After graduating with a degree in{" "}
+        After graduating with a degree in{" "}
         <span className="font-medium">Accounting</span>, I decided to pursue my
         passion for programming. I enrolled in a coding bootcamp and learned{" "}
         <span className="font-medium">full-stack web development</span>.{" "}
@@ -37,12 +37,12 @@ export default function About() {
       </p>
 
       <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
-        video games, watching movies, and playing with my dog. I also enjoy{" "}
-        <span className="font-medium">learning new things</span>. I am currently
-        learning about{" "}
-        <span className="font-medium">history and philosophy</span>. I'm also
-        learning how to play the guitar. */}
+        <span className="italic">When I&apos;m not coding</span>, I enjoy
+        playing video games, watching movies, and playing with my dog. I also
+        enjoy <span className="font-medium">learning new things</span>. I am
+        currently learning about{" "}
+        <span className="font-medium">history and philosophy</span>. Im also
+        learning how to play the guitar.
       </p>
     </motion.section>
   );
