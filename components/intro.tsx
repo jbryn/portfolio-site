@@ -36,8 +36,9 @@ export default function Intro() {
             initial={{ opacity: 0, y: 100 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            A full-stack developer focused on crafting websites and web
-            applications, skilled in React.js and Next.js
+            A Fullstack developer with strong passion for Frontend Development.
+            Focused on crafting websites and web applications. Skilled in
+            React.js and Next.js
           </motion.p>
         </div>
         <motion.div
@@ -71,7 +72,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          href="/CV_Jan_Brynski.pdf"
           download
         >
           Download CV{" "}

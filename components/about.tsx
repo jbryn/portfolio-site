@@ -22,9 +22,10 @@ export default function About() {
         Fullstack Software Engineer with 2 years of commercial experience,
         passionate about building user-centric web experiences in the JavaScript
         ecosystem. Adept at collaborating in team environments to deliver both
-        websites and web applications tailored to client needs. Particularly
-        interested in leveraging my skills alongside creative thinkers in a
-        startup environments.
+        websites and web applications. Experienced in advising clients to find
+        solutions tailored to their business needs. Particularly interested in
+        leveraging my skills alongside creative thinkers in a startup
+        environments.
       </p>
     </motion.section>
   );
