@@ -20,12 +20,12 @@ export default function About() {
       <SectionHeading>About me</SectionHeading>
       <p className="">
         Fullstack Software Engineer with 2 years of commercial experience,
-        passionate about building user-centric web experiences in the JavaScript
+        passionate about building user-centric web experiences using JavaScript
         ecosystem. Adept at collaborating in team environments to deliver both
         websites and web applications. Experienced in advising clients to find
         solutions tailored to their business needs. Particularly interested in
         leveraging my skills alongside creative thinkers in a startup
-        environments.
+        environment.
       </p>
     </motion.section>
   );
