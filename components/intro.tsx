@@ -72,7 +72,7 @@ export default function Intro() {
       >
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV_Jan_Brynski.pdf"
+          href="/CV_Jan_Brynski_website.pdf"
           download
         >
           Download CV{" "}
